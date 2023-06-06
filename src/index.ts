@@ -1,2 +1,2 @@
-const s1:string = "ssss";
-console.log(s1);
+// import './01_变量定义/01变量定义'
+import './02_函数/01函数基础'
