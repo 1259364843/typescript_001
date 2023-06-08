@@ -4,13 +4,13 @@ type CalcFunc = (num1:number,num2:number) => void;
 function calc(fn:CalcFunc) {
   console.log(fn(20, 30));
 }
-function sum1(num1:number,num2:number) {
+function sum11(num1:number,num2:number) {
   return num1+num2
 }
 function mul(num1:number,num2:number) {
   return num1*num2
 }
-calc(sum1)
+calc(sum11)
 calc(mul)
 
 // 默认参数
@@ -26,7 +26,7 @@ function foo2(...nums:number[]) {
   }
   return total
 }
-const result1 = sum(10,20,40)
+const result1 = foo2(10,20,40)
 console.log(result1);
 
 // 函数重载
